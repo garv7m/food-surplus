@@ -102,12 +102,6 @@ Frontend will run on http://localhost:3000
 - GET `/api/requests/sent` - Get requests sent by receiver
 - PUT `/api/requests/:id/accept` - Accept/reject request
 
-## Database Schema
-
-The SQLite database includes three main tables:
-- `users` - Store donor and receiver information
-- `donations` - Store food donation details
-- `requests` - Track pickup requests and status
 
 ## Environment Variables
 
@@ -117,7 +111,7 @@ The SQLite database includes three main tables:
 
 ## Tech Stack
 
-- **Backend**: Node.js, Express.js, SQLite3
+- **Backend**: Node.js, Express.js, MySQL
 - **Frontend**: React, Tailwind CSS, Axios
 - **Authentication**: JWT tokens
 - **File Upload**: Multer
